@@ -2,19 +2,21 @@ package caaiobomfim.application;
 
 public class OrderProcessorService {
 
-    public void processOrder(Order order){
-        this.checkInventory(order);
-        this.calculateTotal(order);
-        this.processPayment(order);
+    private final InventoryChecker inventoryChecker;
+    private final OrderCalculator orderCalculator;
+    private final PaymentProcessor paymentProcessor;
+
+    public OrderProcessorService(InventoryChecker inventoryChecker,
+                                 OrderCalculator orderCalculator,
+                                 PaymentProcessor paymentProcessor) {
+        this.inventoryChecker = inventoryChecker;
+        this.orderCalculator = orderCalculator;
+        this.paymentProcessor = paymentProcessor;
     }
 
-    private void checkInventory(Order order){
-        // LOGIC
-    }
-    private void calculateTotal(Order order){
-        // LOGIC
-    }
-    private void processPayment(Order order){
-        // LOGIC
+    public void processOrder(Order order){
+        this.inventoryChecker.check(order);
+        this.orderCalculator.calculate(order);
+        this.paymentProcessor.processPayment(order);
     }
 }
