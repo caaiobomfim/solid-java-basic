@@ -24,7 +24,7 @@ SOLID é um acrônimo para cinco princípios de design que ajudam a tornar siste
 | I         | Interface Segregation Principle (ISP)      | Muitos contratos específicos são melhores que um contrato geral            |
 | D         | Floor Dependency Inversion Principle (DIP) | Dependa de abstrações, não de implementações concretas                     |
 
-🔗 Veja mais
+## 🔗 Veja mais
 Aprofunde-se em cada princípio acessando seus respectivos diretórios:
 
 - **[single-responsibility-principle](./single-responsibility-principle)** – 📌 Princípio da Responsabilidade Única (SRP)
