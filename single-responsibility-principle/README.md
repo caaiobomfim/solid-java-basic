@@ -39,6 +39,19 @@ public class OrderProcessorService {
 
 Isso violava o SRP pois a classe possuía múltiplas responsabilidades (e múltiplos motivos para mudar) e conhecia muitas regras de negócio.
 
+Classe SolidApplication (main) antes da refatoração:
+
+```bash
+public class SolidApplication {
+    public static void main(String[] args) {
+        System.out.println("Hello World");
+        Order order = new Order("ba1aef0d-4ccb-489c-90b5-cb7664a53c2d", 500);
+        OrderProcessorService orderProcessorService = new OrderProcessorService();
+        orderProcessorService.processOrder(order);
+    }
+}
+```
+
 ## ✅ Refatoração com SRP
 Para aplicar corretamente o SRP, extraímos cada responsabilidade para sua própria classe:
 
