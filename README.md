@@ -24,6 +24,15 @@ SOLID é um acrônimo para cinco princípios de design que ajudam a tornar siste
 | I         | Interface Segregation Principle (ISP)      | Muitos contratos específicos são melhores que um contrato geral            |
 | D         | Floor Dependency Inversion Principle (DIP) | Dependa de abstrações, não de implementações concretas                     |
 
+🔗 Veja mais
+Aprofunde-se em cada princípio acessando seus respectivos diretórios:
+
+- [single-responsibility-principle](./single-responsibility-principle) – 📌 Princípio da Responsabilidade Única (SRP)
+- open-closed-principle – 🔄 Princípio Aberto/Fechado (OCP)
+- liskov-substitution-principle – 🧬 Princípio da Substituição de Liskov (LSP)
+- interface-segregation-principle – 🎛️ Princípio da Segregação de Interface (ISP)
+- dependency-inversion-principle – 🧩 Princípio da Inversão de Dependência (DIP)
+
 ## 💡 Como usar
 Cada subpasta contém:
 
