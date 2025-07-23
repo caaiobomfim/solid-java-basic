@@ -28,7 +28,7 @@ SOLID é um acrônimo para cinco princípios de design que ajudam a tornar siste
 Aprofunde-se em cada princípio acessando seus respectivos diretórios:
 
 - **[single-responsibility-principle](./single-responsibility-principle)** – 📌 Princípio da Responsabilidade Única (SRP)
-- open-closed-principle – 🔄 Princípio Aberto/Fechado (OCP)
+- **[open-closed-principle](./open-closed-principle)** – 🔄 Princípio Aberto/Fechado (OCP)
 - liskov-substitution-principle – 🧬 Princípio da Substituição de Liskov (LSP)
 - interface-segregation-principle – 🎛️ Princípio da Segregação de Interface (ISP)
 - dependency-inversion-principle – 🧩 Princípio da Inversão de Dependência (DIP)
