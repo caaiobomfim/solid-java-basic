@@ -9,5 +9,6 @@
   <url>http://maven.apache.org</url>
   <modules>
     <module>single-responsibility-principle</module>
+    <module>open-closed-principle</module>
   </modules>
 </project>
